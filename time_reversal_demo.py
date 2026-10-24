@@ -24,6 +24,6 @@ n_reversed = -n[::-1]           # this is the reversed time axis
 # plotting section
 plt.plot(n, x, '.-', c = 'b', label='orginal signal:  x[n]', alpha=0.6)
 plt.plot(n_reversed, x_reversed, '.-', c='red', label='time reversed signal:  x[-n]', alpha=0.6)
-plt.title('Demo of time reversal of signal')
+plt.title('Demo of time reversal of a signal')
 plt.legend()
 plt.grid(True)
